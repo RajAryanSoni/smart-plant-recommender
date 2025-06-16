@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 
@@ -45,7 +45,7 @@ export default function Home() {
     </h1>
 
     <p className="mt-4 text-lg sm:text-xl text-black/80">
-      "Because every place deserves a plant."
+      &quot;Because every place deserves a plant.&quot;
     </p>
 
 <Link href="/plant-form">
@@ -70,7 +70,7 @@ export default function Home() {
   <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
     {/* Box 1 */}
     <div className="text-center p-6 shadow-lg rounded-lg border hover:shadow-xl transition">
-      <img
+      <Image
         src="/oxygen.jpeg"
         alt="Air Purifier"
         className="mx-auto mb-4 h-32 object-contain"
@@ -83,7 +83,7 @@ export default function Home() {
 
     {/* Box 2 */}
     <div className="text-center p-6 shadow-lg rounded-lg border hover:shadow-xl transition">
-      <img
+      <Image
         src="/mental-health.jpeg"
         alt="Mental Health"
         className="mx-auto mb-4 h-32 object-contain"
@@ -96,7 +96,7 @@ export default function Home() {
 
     {/* Box 3 */}
     <div className="text-center p-6 shadow-lg rounded-lg border hover:shadow-xl transition">
-      <img
+      <Image
         src="/greenary.jpeg"
         alt="Aesthetic"
         className="mx-auto mb-4 h-32 object-contain"
@@ -111,9 +111,9 @@ export default function Home() {
 
 
 <section id="we" className="py-20 bg-transparent px-6 sm:px-16 text-center">
-  <h2 className="text-4xl font-bold text-green-800 mb-4">Why We're Different</h2>
+  <h2 className="text-4xl font-bold text-green-800 mb-4">Why We are Different</h2>
   <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-12">
-    We don't just recommend plants — we understand your environment and habits to match you with the perfect green companion.
+    We do not just recommend plants — we understand your environment and habits to match you with the perfect green companion.
   </p>
 
   <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -126,7 +126,7 @@ export default function Home() {
     <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
       <h3 className="text-xl font-semibold text-green-700 mb-2">🕒 Lifestyle-Based</h3>
       <p className="text-gray-600 text-sm">
-        Whether you're forgetful or a plant parent — we adjust to you.
+        Whether you are forgetful or a plant parent — we adjust to you.
       </p>
     </div>
     <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
@@ -218,7 +218,7 @@ export default function Home() {
     </p>
 
     <p className="text-gray-700 text-lg leading-relaxed mt-6 text-center">
-      Whether you're a plant lover or someone just beginning their green journey, Ankur recommends plants 
+      Whether you are a plant lover or someone just beginning their green journey, Ankur recommends plants 
       that match your lifestyle and environment — temperature, location, season, and care habits. 
       We combine nature and technology to guide your first (or next) step in planting happiness.
     </p>

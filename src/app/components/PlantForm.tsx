@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from 'next/navigation';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { getFunnyMessage } from "./getFunnyMessages";
 
 export default function PlantForm() {
@@ -42,7 +42,7 @@ const fetchWeather = async (location: string) => {
     setFunLine(response);
   } catch (error) {
     console.error("Weather API error:", error);
-    setFunLine("Couldn't get the weather vibe yet 🌍");
+    setFunLine("Couldn not get the weather vibe yet 🌍");
   }
 };
 
@@ -72,7 +72,7 @@ return (
       onSubmit={handleSubmit}
       className="backdrop-blur-md bg-white/30 p-10 rounded-xl shadow-2xl max-w-2xl w-full space-y-6 text-black overflow-y-auto"
     >
-        <h2 className="text-3xl font-bold text-center">Let's Find Your Plant Mate 🌱</h2>
+        <h2 className="text-3xl font-bold text-center">Let us Find Your Plant Mate 🌱</h2>
 
         <div>
           <label className="block mb-1 font-medium">Your Name</label>
@@ -111,7 +111,7 @@ return (
             required
           >
             <option value="">Select</option>
-            <option value="never">Never, I'm a responsible parent 🌿</option>
+            <option value="never">Never, I am a responsible parent 🌿</option>
             <option value="sometimes">Sometimes forget 🌤️</option>
             <option value="often">I forget often 😅</option>
           </select>
@@ -214,7 +214,7 @@ return (
   >
     <option value="">Select</option>
     <option value="yes">Yes, please 🍃</option>
-    <option value="no">Doesn't matter</option>
+    <option value="no">Doesn not matter</option>
   </select>
 </div>
 
